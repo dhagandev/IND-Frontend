@@ -1,0 +1,7 @@
+.carouselComponent {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 850px;
+	height: 325px;
+	margin: 0 auto;
+}
