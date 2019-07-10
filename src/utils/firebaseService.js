@@ -1,5 +1,5 @@
 import firebase from 'firebase/app';
-import 'firebase/database';
+import 'firebase/firestore';
 import 'firebase/auth';
 
 
@@ -17,9 +17,8 @@ firebase.initializeApp({
 // Apis and config vars
 
 const provider = new firebase.auth.GoogleAuthProvider();
-const database = firebase.database();
+const database = firebase.firestore();
 const auth = firebase.auth();
-
 
 // functions
 
@@ -32,7 +31,7 @@ function logout() {
 }
 
 function createTodo(ref, todo) {
-    return database.ref(ref).push(todo);
+    return database.collection('todos').ref(ref).push(todo);
 }
 
 function removeTodo(ref, id) {
