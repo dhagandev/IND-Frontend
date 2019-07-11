@@ -4,16 +4,13 @@ import Home from './Home/home'
 import TopNav from './TopNav/topnav'
 import Portal from './Portal/portal'
 import PrivateRoute from './utils/PrivateRoute/privateRoute'
-
+import { auth } from './utils/firebaseService';
 import {
     Route,
     Switch,
     BrowserRouter as Router
 } from 'react-router-dom';
 
-import {
-    auth
-} from './utils/firebaseService';
 
 class App extends Component {
     constructor() {
