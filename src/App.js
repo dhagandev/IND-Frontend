@@ -3,7 +3,7 @@ import Login from './Login/login'
 import Home from './Home/home'
 import TopNav from './TopNav/topnav'
 import Portal from './Portal/portal'
-import PrivateRoute from './utils/PrivateRoute/privateRoute'
+import PrivateRoute from './utils/privateRoute'
 import { auth } from './utils/firebaseService';
 import {
     Route,
