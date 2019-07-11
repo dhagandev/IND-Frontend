@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import NotImplemented from './not-implemented/notImplemented'
+
 class App extends Component {
   state = {
     data: null

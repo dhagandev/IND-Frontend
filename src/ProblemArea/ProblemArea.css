@@ -1,0 +1,17 @@
+.ProblemArea {
+	display: flex;
+}
+
+.portalImg {
+	margin: 10px;
+}
+.tab {
+	margin-left: 30px;
+	display: inline;
+}
+
+.prob-sol {
+	text-align: left;
+	width: 600px;
+	margin: 10px;
+}
