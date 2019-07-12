@@ -85,6 +85,15 @@ class App extends Component {
 							user={this.state.user}
 							showSideBar
 							project_id="?"
+							character_id="?"
+							path="/portal/projects/:project_id/characters/:character_id" 
+							component={Characters} 
+						/>
+						<PrivateRoute 
+							authenticated={this.state.authenticated}
+							user={this.state.user}
+							showSideBar
+							project_id="?"
 							path="/portal/projects/:project_id/dialogue" 
 							component={DialogueManager} 
 						/>
