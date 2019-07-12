@@ -20,10 +20,12 @@ const auth = firebase.auth();
 // functions
 
 function login() {
+    console.log("LOGIN")
     return auth.signInWithPopup(provider);
 }
 
 function logout() {
+    console.log("LOGOUT")
     return auth.signOut();
 }
 
