@@ -1,0 +1,45 @@
+.landing-page {
+	margin: 75px auto;
+	width: 80%;
+}
+
+.landing-area {
+	margin: 0 0 50px;
+	text-align: center;
+}
+
+.landing-intro {
+	font-size: 64px;
+	font-style: italic;
+	font-weight: bolder;
+	margin: 15px 0;
+	letter-spacing: 4px;
+}
+
+.join-us {
+	font-size: 32px;
+	font-weight: bolder;
+	margin: 15px 0;
+}
+
+.intro-area {
+	margin: 50px 0;
+	display: flex;
+}
+
+.intro-text {
+	margin: auto 0;
+	padding: 0 20px;
+}
+
+.video-area {
+	text-align: center;
+	margin: 50px;
+}
+
+.learn-more-text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bolder;
+	margin: 15px 0;
+}
