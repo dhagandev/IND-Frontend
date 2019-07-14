@@ -1,7 +1,12 @@
 .not-implemented {
-	margin: 75px auto;
+	margin: 100px auto;
 	width: 80%;
-	text-align: center;;
+	text-align: center;
+	display: flex;
+}
+.text-area {
+	text-align: center;
+	margin: 0 auto
 }
 
 .apology {

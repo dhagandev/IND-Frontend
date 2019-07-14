@@ -10,7 +10,7 @@ const Landing = () => {
 				<CardArea />
 			</div>
 			<div className="intro-area">
-				<img src="https://via.placeholder.com/500x300"/>
+				<img src="https://via.placeholder.com/500x300" alt="portal picture"/>
 				<div className="intro-text">
 					TEXT HERE ABOUT HOW THE SITE IS/WHY IT WAS MADE
 				</div>
@@ -19,7 +19,7 @@ const Landing = () => {
 				<div className="learn-more-text">
 					Want to learn more? Check this video out!
 				</div>
-				<img src="https://via.placeholder.com/640x385"/>
+				<img src="https://via.placeholder.com/640x385" alt="to be replaced with youtube video"/>
 				<div className="join-us">
 					Click Login to join us!
 				</div>
