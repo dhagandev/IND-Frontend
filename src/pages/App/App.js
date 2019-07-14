@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { auth } from '../../utils/firebaseService'
 import TopNavBar from '../../components/TopNavBar/TopNavBar';
 import NeedLogin from '../../components/NeedLogin/NeedLogin';
 import Landing from '../Landing/Landing';
@@ -14,7 +15,6 @@ import History from '../UserPortal/History/History';
 import WalkThrough from '../UserPortal/WalkThrough/WalkThrough';
 import PrivateRoute from '../../utils/privateRoute';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
-import { auth } from '../../utils/firebaseService'
 
 class App extends Component {
 	constructor() {

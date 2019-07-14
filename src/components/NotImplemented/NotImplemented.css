@@ -1,0 +1,17 @@
+.not-implemented {
+	margin: 75px auto;
+	width: 80%;
+	text-align: center;;
+}
+
+.apology {
+	font-size: 64px;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+.explanation {
+	width: 400px;
+	margin: 20px auto;
+	font-size: 28px;
+}

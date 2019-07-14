@@ -1,8 +1,16 @@
 import React from 'react';
+import './NotImplemented.css'
 
 const NotImplemented = () => {
 	return (
-		<h3>NOT IMPLEMENTED</h3>
+		<div className="not-implemented">
+			<div className="apology">
+				Sorry!
+			</div>
+			<div className="explanation">
+				This feature is not implented yet. We are currently in v0, but have plans to implement this in the future, so check back often!
+			</div>
+		</div>
 	)
 }
 

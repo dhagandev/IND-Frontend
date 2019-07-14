@@ -1,0 +1,17 @@
+.home-card {
+	margin: 10px auto;
+	max-width: 275px;
+	min-width: 275px;
+}
+
+.card-text {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.5rem !important;
+}
+
+.card-icon {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
